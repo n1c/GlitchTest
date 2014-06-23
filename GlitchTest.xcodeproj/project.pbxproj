@@ -21,6 +21,7 @@
 		046BC1F2195855FA00C1C2E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BC1D4195855FA00C1C2E1 /* UIKit.framework */; };
 		046BC1FA195855FA00C1C2E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046BC1F8195855FA00C1C2E1 /* InfoPlist.strings */; };
 		046BC1FC195855FA00C1C2E1 /* GlitchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC1FB195855FA00C1C2E1 /* GlitchTestTests.m */; };
+		04D198B3195856C700499D18 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D198B2195856C700499D18 /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		046BC1F7195855FA00C1C2E1 /* GlitchTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlitchTestTests-Info.plist"; sourceTree = "<group>"; };
 		046BC1F9195855FA00C1C2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		046BC1FB195855FA00C1C2E1 /* GlitchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlitchTestTests.m; sourceTree = "<group>"; };
+		04D198B2195856C700499D18 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		046BC1D7195855FA00C1C2E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04D198B2195856C700499D18 /* image.jpg */,
 				046BC1D8195855FA00C1C2E1 /* GlitchTest-Info.plist */,
 				046BC1D9195855FA00C1C2E1 /* InfoPlist.strings */,
 				046BC1DC195855FA00C1C2E1 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D198B3195856C700499D18 /* image.jpg in Resources */,
 				046BC1E9195855FA00C1C2E1 /* Images.xcassets in Resources */,
 				046BC1DB195855FA00C1C2E1 /* InfoPlist.strings in Resources */,
 				046BC1E4195855FA00C1C2E1 /* Main.storyboard in Resources */,
@@ -457,6 +461,7 @@
 				046BC201195855FA00C1C2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046BC202195855FA00C1C2E1 /* Build configuration list for PBXNativeTarget "GlitchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				046BC204195855FA00C1C2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

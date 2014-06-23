@@ -10,4 +10,6 @@
 
 @interface MMViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
